@@ -30,7 +30,7 @@ $ mill foo.run --help
 [info] done compiling
 [46/46] foo.run
 apply
-  --help  Print this help message.
+  --help  Print this help message.  <2>
 
 ----
 
@@ -47,6 +47,6 @@ $ mill foo.run --help
 [info] done compiling
 [46/46] foo.run
 apply
-  --help  Print another message.  <2>
+  --help  Print another message.
 
 ----
